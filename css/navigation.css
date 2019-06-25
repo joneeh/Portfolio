@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+sidenav a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #1A2131;
+}
+
+sidenav {
+	position: fixed;
+	margin-top: 100px;
+}
+
+sidenav .profile, .projects, .socialmedia, .resume{
+	padding-top: 15px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	border-bottom: thin solid #4F7C9C
+}
+
+.profile{
+	width: 200px;
+}
+
+.projects{
+	width: 90px;
+}
+
+
+.socialmedia{
+	width: 130px;
+}
+
+.resume{
+	width: 90px;
+}
