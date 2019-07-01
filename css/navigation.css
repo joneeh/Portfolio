@@ -62,3 +62,8 @@ sidenav .profile, .projects, .socialmedia, .resume{
 .resume{
 	width: 90px;
 }
+
+sidenav a:hover{
+	font-size: 25px;
+	font-style: oblique;
+}
