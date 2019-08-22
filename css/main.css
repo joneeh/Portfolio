@@ -12,9 +12,9 @@ main .container{
 }
 
 footer {
-	display: block;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	text-align: center;
+	text-align: left;
+	padding-left: 240px;
 }

@@ -10,60 +10,17 @@ sidenav a{
 
 sidenav {
 	position: fixed;
-	margin-top: 150px;
+	margin-top: 100px;
+	text-align: right;
+	margin-left: 100px;
 }
 
 sidenav .profile, .projects, .socialmedia, .resume{
 	padding-top: 15px;
 	padding-bottom: 2px;
 	padding-left: 10px;
-	border-bottom: thin solid #4F7C9C
 }
 
-.profile:hover a{
-	font-size: 25px;
-}
-.profile:hover{
-	width: 250px;
-}
-.profile{
-	width: 200px;
-}
-
-
-.projects:hover a{
-	font-size: 25px;
-}
-.projects:hover{
-	width: 110px;
-}
-.projects{
-	width: 90px;
-}
-
-
-.socialmedia:hover a{
-	font-size: 25px;
-}
-.socialmedia:hover{
-	width: 130px;
-}
-.socialmedia{
-	width: 110px;
-}
-
-
-.resume:hover a{
-	font-size: 25px;
-}
-.resume:hover{
-	width: 105px;
-}
-.resume{
-	width: 90px;
-}
-
-sidenav a:hover{
-	font-size: 25px;
-	font-style: oblique;
+sidenav .profile:hover a, .projects:hover a, .socialmedia:hover a, .resume:hover a{
+	color: #3D44B5;
 }
