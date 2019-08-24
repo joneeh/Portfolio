@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.header {
+	padding: 0px;
+	width: 1000px;
+	height: 250px;
+	border-bottom: solid;
+	border-width: 1px;
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	display: block;
+}
+
+.header img{
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	display: block;
+	overflow: hidden;
+	width: 250px;
+	height: 250px;
+}
+
+.header .front{
+	z-index: 9999;
+	cursor: pointer;
+}
+
+.header:hover > .front{
+	opacity: 0;	
+}
