@@ -2,7 +2,6 @@
 
 .grid .content .c-left{
 	width: 1000px;
-	height: 1000px;
 	border-bottom: solid;
 	border-width: 1px;
 	border-color: grey;
@@ -48,6 +47,15 @@
 	margin-left: 20px;
 }
 
+#overview p{
+	text-indent: 20px;
+	padding-left: 10px;
+	width: 550px;
+}
+
+#overview, #contact, #experiences{
+	padding-bottom: 50px;
+}
 
 .icon{
 	margin-top: 10px;
@@ -132,13 +140,14 @@
 
 .c-left .educ .sch{
 	margin-left: 20px;
+	font-size: 17px;
 }
 
-.educ{
-	margin-left: 30px;
+.educ p{
+	margin-left: 10px;
 }
 
-.yr{
+.educ .yr{
 	border-top: solid;
 	border-width: 1px;
 	margin-top: -15px;
@@ -150,9 +159,10 @@
 	padding-right: 10px;
 }
 
-.cor{
+.educ .cor{
+	font-size: 15px;
 	margin-left: 50px;
-	margin-top: -10px;
+	margin-top: -15px;
 	color: black;
 	font-style: oblique;
 }
@@ -172,18 +182,34 @@
 }
 
 .educ .asnhs{
-	margin-left: 420px;
+	margin-left: 418px;
 	margin-top: -68px;
 	position: absolute;
-	width: 80px;
+	width: 85px;
 	height: 80px;
 }
 
 .educ .msu{
-	margin-left: 420px;
+	margin-left: 425px;
 	margin-top: -10px;
 	position: absolute;
 	width: 80px;
 	height: 80px;
 }
 
+#experiences .title{
+	font-size: 17px;
+	color: #399d6d;
+	margin-left: 10px;
+}
+
+#experiences .yr1{
+	margin-top: -18px;
+	margin-left: 30px;
+}
+
+#experiences .job{
+	font-style: italic;
+	margin-left: 20px;
+	margin-top: -20px;
+}
