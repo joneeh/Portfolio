@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import url("header.css");
 @import url("nav.css");
+@import url("page.css");
 
 body{
 	margin: 0px;

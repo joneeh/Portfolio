@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+.grid .content .c-left{
+	width: 1000px;
+	height: 1000px;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: grey;
+	position: absolute;
+	left: 50%;
+	margin-top: 320px;
+	margin-left: -500px;
+	display: block;
+	text-align: left;
+	padding: 10px 0px 24px 10px;
+	margin-bottom: 20px;
+}
+
+.grid .content .c-right{
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	margin-top: 320px;
+	margin-left: 100px;
+	display: block;
+	text-align: left;
+	padding: 10px 0px 24px 10px;
+}
+
+.content{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.content a{
+	font-size: 25px;
+}
+
+.content .c-left p{
+	width: 600px;
+	text-align: justify;
+}
+
+.c-right p, .c-right  a{
+	padding-left: 30px;
+}
+
+.c-right p{
+	margin-left: 20px;
+}
+
+
+.icon{
+	margin-top: 10px;
+}
+
+.icon .ic1{
+	position: absolute;
+	margin-left: 50px;
+	width: 35px;
+	height: 35px;
+	background: url("img/icons/021-facebook.png") no-repeat;
+	background-size: contain;
+}
+.icon .ic1:hover{
+	background: url("img/icons/021-facebook-h.png") no-repeat;
+	background-size: contain;
+}
+
+.icon .ic2{
+	position: absolute;
+	margin-left: 90px;
+	width: 35px;
+	height: 35px;
+	background: url("img/icons/025-instagram.png") no-repeat;
+	background-size: contain;
+}
+.icon .ic2:hover{
+	background: url("img/icons/025-instagram-h.png") no-repeat;
+	background-size: contain;
+}
+.icon .ic3{
+	position: absolute;
+	margin-left: 130px;
+	width: 35px;
+	height: 35px;
+	background: url("img/icons/045-linkedin.png") no-repeat;
+	background-size: contain;
+}
+.icon .ic3:hover{
+	background: url("img/icons/045-linkedin-h.png") no-repeat;
+	background-size: contain;
+}
+
+.icon .ic4{
+	position: absolute;
+	margin-left: 170px;
+	width: 35px;
+	height: 35px;
+	background: url("img/icons/043-twitter.png") no-repeat;
+	background-size: contain;
+}
+.icon .ic4:hover{
+	background: url("img/icons/043-twitter-h.png") no-repeat;
+	background-size: contain;
+}
+
+.icon .ic5{
+	position: absolute;
+	margin-left: 210px;
+	width: 35px;
+	height: 35px;
+	background: url("img/icons/046-spotify.png") no-repeat;
+	background-size: contain;
+}
+.icon .ic5:hover{
+	background: url("img/icons/046-spotify-h.png") no-repeat;
+	background-size: contain;
+}
+
+.icon .ic6{
+	position: absolute;
+	margin-left: 250px;
+	width: 35px;
+	height: 35px;
+	background: url("img/icons/038-github.png") no-repeat;
+	background-size: contain;
+}
+.icon .ic6:hover{
+	background: url("img/icons/038-github-h.png") no-repeat;
+	background-size: contain;
+}
+
+.c-left .educ .sch{
+	margin-left: 20px;
+}
+
+.educ{
+	margin-left: 30px;
+}
+
+.yr{
+	border-top: solid;
+	border-width: 1px;
+	margin-top: -15px;
+	text-align-last: right;
+}
+
+.c-left .educ .yr{
+	width: 390px;
+	padding-right: 10px;
+}
+
+.cor{
+	margin-left: 50px;
+	margin-top: -10px;
+	color: black;
+	font-style: oblique;
+}
+
+.col{
+	font-size: 20px;
+	margin-left: -20px;
+	color: #399d6d;	
+}
+
+.educ .msu{
+	margin-left: 420px;
+	margin-top: -30px;
+	position: absolute;
+	width: 80px;
+	height: 80px;
+}
+
