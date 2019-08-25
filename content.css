@@ -163,9 +163,25 @@
 	color: #399d6d;	
 }
 
-.educ .msu{
+.educ .sped{
 	margin-left: 420px;
 	margin-top: -30px;
+	position: absolute;
+	width: 80px;
+	height: 80px;
+}
+
+.educ .asnhs{
+	margin-left: 420px;
+	margin-top: -68px;
+	position: absolute;
+	width: 80px;
+	height: 80px;
+}
+
+.educ .msu{
+	margin-left: 420px;
+	margin-top: -10px;
 	position: absolute;
 	width: 80px;
 	height: 80px;
