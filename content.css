@@ -1,7 +1,62 @@
 @charset "utf-8";
 
-.grid .content .c-left{
-	width: 1000px;
+.choices{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.choices{
+	padding-top: 30px;
+	padding-left: 50px;
+}
+
+.ch{
+	padding-top: 5px;
+	width: 300px;
+	height: 50px;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	border-radius: 10px;
+	z-index: -1;
+}
+
+.ch:hover{
+	color: white;
+	background-color: red;
+}
+
+.choice .choices p{
+	font-size: 30px;
+}
+
+.choice .choose{
+	height: 1000px;
+	width: 990px;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: grey;
+	position: absolute;
+	left: 50%;
+	margin-top: 320px;
+	margin-left: -500px;
+	display: block;
+	text-align: left;
+	padding: 10px 0px 24px 10px;
+	margin-bottom: 20px;}
+
+.choice .choices{
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	margin-top: 320px;
+	margin-left: 100px;
+	display: block;
+	text-align: right;
+	padding: 10px -10px 24px 10px;
+}
+
+.content .c-left{
+	width: 990px;
 	border-bottom: solid;
 	border-width: 1px;
 	border-color: grey;
@@ -14,6 +69,18 @@
 	padding: 10px 0px 24px 10px;
 	margin-bottom: 20px;
 }
+
+.grid .content .c-right{
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	margin-top: 320px;
+	margin-left: 100px;
+	display: block;
+	text-align: left;
+	padding: 10px 0px 24px 10px;
+}
+
 
 .grid .content .c-right{
 	width: 400px;
